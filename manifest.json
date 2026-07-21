@@ -1,0 +1,28 @@
+{
+    "name": "Plataforma Web de Gestión de Campaña Electoral",
+    "short_name": "Campaña Electoral",
+    "description": "Sistema web para gestión política, financiera y logística electoral.",
+    
+    "start_url": "index.html",
+
+    "display": "standalone",
+
+    "background_color": "#ffffff",
+
+    "theme_color": "#0d47a1",
+
+    "orientation": "portrait",
+
+    "icons": [
+        {
+            "src": "assets/img/logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/img/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
