@@ -1,0 +1,322 @@
+/* =====================================
+   STYLE GLOBAL
+   Plataforma Web de Gestión Electoral
+===================================== */
+
+
+/* Variables del sistema */
+
+:root{
+
+    --azul:#0d47a1;
+
+    --azul-secundario:#1976d2;
+
+    --rojo:#d32f2f;
+
+    --blanco:#ffffff;
+
+    --gris:#f4f6f9;
+
+    --texto:#333;
+
+    --sombra:0 4px 15px rgba(0,0,0,.12);
+
+}
+
+
+
+/* Reset básico */
+
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+
+
+
+body{
+
+
+    font-family:
+
+    'Segoe UI',
+    Arial,
+    sans-serif;
+
+
+    background:var(--gris);
+
+    color:var(--texto);
+
+
+}
+
+
+
+
+
+/* ===============================
+   LINKS
+================================ */
+
+
+a{
+
+
+    text-decoration:none;
+
+    color:inherit;
+
+
+}
+
+
+
+
+
+/* ===============================
+   HEADER
+================================ */
+
+
+.header-system{
+
+
+    background:
+
+    linear-gradient(
+        90deg,
+        var(--azul),
+        var(--rojo)
+    );
+
+
+    color:white;
+
+    padding:20px;
+
+
+}
+
+
+
+.header-system h1{
+
+
+    font-weight:700;
+
+}
+
+
+
+
+
+/* ===============================
+   LOGO
+================================ */
+
+
+.logo{
+
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+
+}
+
+
+
+.logo img{
+
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+
+}
+
+
+
+
+
+/* ===============================
+   CONTENEDORES
+================================ */
+
+
+.container-system{
+
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+
+}
+
+
+
+
+
+
+
+/* ===============================
+   TITULOS
+================================ */
+
+
+.title{
+
+
+    color:var(--azul);
+
+    font-weight:700;
+
+}
+
+
+
+.subtitle{
+
+
+    color:#666;
+
+    font-size:15px;
+
+
+}
+
+
+
+
+
+/* ===============================
+   UTILIDADES
+================================ */
+
+
+.text-blue{
+
+
+    color:var(--azul);
+
+
+}
+
+
+
+.text-red{
+
+
+    color:var(--rojo);
+
+
+}
+
+
+
+.bg-blue{
+
+
+    background:var(--azul);
+
+    color:white;
+
+
+}
+
+
+
+.bg-red{
+
+
+    background:var(--rojo);
+
+    color:white;
+
+
+}
+
+
+
+
+.shadow-system{
+
+
+    box-shadow:var(--sombra);
+
+
+}
+
+
+
+
+
+/* ===============================
+   FOOTER
+================================ */
+
+
+.footer{
+
+
+    background:var(--azul);
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:40px;
+
+
+}
+
+
+
+
+
+
+
+/* ===============================
+   SCROLL
+================================ */
+
+
+::-webkit-scrollbar{
+
+
+    width:8px;
+
+
+}
+
+
+
+::-webkit-scrollbar-thumb{
+
+
+    background:var(--azul);
+
+    border-radius:10px;
+
+
+}

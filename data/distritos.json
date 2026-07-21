@@ -1,0 +1,60 @@
+[
+    {
+        "departamento":"Piura",
+        "provincia":"Piura",
+        "distritos":[
+            "Piura",
+            "Castilla",
+            "Catacaos",
+            "Cura Mori",
+            "El Tallán",
+            "La Arena",
+            "La Unión",
+            "Las Lomas",
+            "Tambo Grande",
+            "Veintiséis de Octubre"
+        ]
+    },
+
+    {
+        "departamento":"Piura",
+        "provincia":"Sullana",
+        "distritos":[
+            "Sullana",
+            "Bellavista",
+            "Ignacio Escudero",
+            "Lancones",
+            "Marcavelica",
+            "Miguel Checa",
+            "Querecotillo",
+            "Salitral"
+        ]
+    },
+
+    {
+        "departamento":"Piura",
+        "provincia":"Paita",
+        "distritos":[
+            "Paita",
+            "Amotape",
+            "Arenal",
+            "Colán",
+            "La Huaca",
+            "Tamarindo",
+            "Vichayal"
+        ]
+    },
+
+    {
+        "departamento":"Piura",
+        "provincia":"Talara",
+        "distritos":[
+            "Pariñas",
+            "El Alto",
+            "La Brea",
+            "Lobitos",
+            "Los Órganos",
+            "Máncora"
+        ]
+    }
+]

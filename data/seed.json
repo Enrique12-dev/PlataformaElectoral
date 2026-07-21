@@ -1,0 +1,124 @@
+{
+    "usuarios":[
+        {
+            "id":1,
+            "nombre":"Administrador General",
+            "usuario":"admin",
+            "password":"123456",
+            "rol":"Administrador"
+        },
+        {
+            "id":2,
+            "nombre":"Tesorero Campaña",
+            "usuario":"tesorero",
+            "password":"123456",
+            "rol":"Tesorero"
+        },
+        {
+            "id":3,
+            "nombre":"Personero General Demo",
+            "usuario":"personero",
+            "password":"123456",
+            "rol":"Personero General"
+        }
+    ],
+
+
+    "configuracion":{
+
+        "nombreCampaña":
+        "Campaña Electoral Demo",
+
+        "partido":
+        "Organización Política Demo",
+
+        "periodo":
+        "2026",
+
+        "presupuestoInicial":
+        50000
+
+    },
+
+
+    "aportantes":[
+
+        {
+            "id":1,
+            "dni":"12345678",
+            "nombre":"Juan Pérez",
+            "tipo":"Efectivo",
+            "valor":500
+        }
+
+    ],
+
+
+    "eventos":[
+
+        {
+            "id":1,
+            "nombre":"Cena Pro Fondos",
+            "tipo":"Evento Recaudador",
+            "costo":1500,
+            "recaudacion":5000,
+            "ganancia":3500
+        }
+
+    ],
+
+
+    "locales":[
+
+        {
+            "id":1,
+            "nombre":
+            "I.E. Nuestra Señora de Fátima",
+
+            "departamento":
+            "Piura",
+
+            "provincia":
+            "Piura",
+
+            "distrito":
+            "Piura",
+
+            "mesas":25
+        }
+
+    ],
+
+
+    "personeros":[
+
+        {
+            "id":1,
+            "nombre":
+            "Carlos Rodríguez",
+
+            "cargo":
+            "Personero General",
+
+            "local_id":1
+        }
+
+    ],
+
+
+    "gastos":[
+
+        {
+            "id":1,
+            "categoria":
+            "Publicidad Digital",
+
+            "descripcion":
+            "Campaña redes sociales",
+
+            "monto":2500
+        }
+
+    ]
+
+}

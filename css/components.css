@@ -1,0 +1,285 @@
+/* =====================================
+   COMPONENTES GENERALES
+   Plataforma Campaña Electoral
+===================================== */
+
+
+:root{
+
+    --azul:#0d47a1;
+    --azul-claro:#1976d2;
+    --rojo:#d32f2f;
+    --blanco:#ffffff;
+    --gris:#f5f6fa;
+    --sombra:0 5px 20px rgba(0,0,0,.12);
+
+}
+
+
+
+/* ===============================
+   BOTONES
+================================ */
+
+
+.btn-primary{
+
+    background:var(--azul);
+
+    border:none;
+
+}
+
+
+
+.btn-primary:hover{
+
+    background:#08306b;
+
+}
+
+
+
+.btn-danger{
+
+    background:var(--rojo);
+
+    border:none;
+
+}
+
+
+
+.btn-danger:hover{
+
+    background:#a31515;
+
+}
+
+
+
+/* ===============================
+   TARJETAS
+================================ */
+
+
+.card-system{
+
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:var(--sombra);
+
+    transition:.3s;
+
+
+}
+
+
+
+.card-system:hover{
+
+
+    transform:translateY(-5px);
+
+
+}
+
+
+
+.card-system i{
+
+
+    font-size:35px;
+
+    color:var(--rojo);
+
+
+}
+
+
+
+
+
+/* ===============================
+   PANELES
+================================ */
+
+
+.panel{
+
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:var(--sombra);
+
+
+}
+
+
+
+.panel-title{
+
+
+    color:var(--azul);
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+
+/* ===============================
+   TABLAS
+================================ */
+
+
+.table-system{
+
+
+    width:100%;
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+
+}
+
+
+
+.table-system thead{
+
+
+    background:var(--azul);
+
+    color:white;
+
+
+}
+
+
+
+.table-system tbody tr:hover{
+
+
+    background:#f1f5ff;
+
+
+}
+
+
+
+
+
+/* ===============================
+   BADGES DE ESTADO
+================================ */
+
+
+.status-success{
+
+
+    background:#198754;
+
+    color:white;
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+
+}
+
+
+
+.status-warning{
+
+
+    background:#ffc107;
+
+    color:black;
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+
+}
+
+
+
+.status-danger{
+
+
+    background:var(--rojo);
+
+    color:white;
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+
+}
+
+
+
+
+
+
+/* ===============================
+   ALERTAS
+================================ */
+
+
+.alert-system{
+
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.alert-info{
+
+
+    background:#e3f2fd;
+
+    color:var(--azul);
+
+
+}
+
+
+
+.alert-danger{
+
+
+    background:#ffebee;
+
+    color:var(--rojo);
+
+
+}

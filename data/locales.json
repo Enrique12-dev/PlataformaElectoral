@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "nombre":"I.E. Nuestra Señora de Fátima",
+        "departamento":"Piura",
+        "provincia":"Piura",
+        "distrito":"Piura",
+        "mesas":25,
+        "personeroGeneral":null
+    },
+
+    {
+        "id":2,
+        "nombre":"I.E. San Miguel",
+        "departamento":"Piura",
+        "provincia":"Piura",
+        "distrito":"Piura",
+        "mesas":30,
+        "personeroGeneral":null
+    },
+
+    {
+        "id":3,
+        "nombre":"Universidad Nacional de Piura",
+        "departamento":"Piura",
+        "provincia":"Piura",
+        "distrito":"Castilla",
+        "mesas":40,
+        "personeroGeneral":null
+    },
+
+    {
+        "id":4,
+        "nombre":"I.E. Carlos Augusto Salaverry",
+        "departamento":"Piura",
+        "provincia":"Sullana",
+        "distrito":"Sullana",
+        "mesas":20,
+        "personeroGeneral":null
+    },
+
+    {
+        "id":5,
+        "nombre":"I.E. Nuestra Señora de las Mercedes",
+        "departamento":"Piura",
+        "provincia":"Paita",
+        "distrito":"Paita",
+        "mesas":18,
+        "personeroGeneral":null
+    }
+]
